@@ -8,6 +8,7 @@ namespace DDD
     /// Central hub that listens to Unity's New Input System events 
     /// and exposes clean properties for other game systems to read.
     /// </summary>
+    [RequireComponent(typeof(PlayerInput))]
     public class InputHub : MonoBehaviour
     {
         // ==========================================
