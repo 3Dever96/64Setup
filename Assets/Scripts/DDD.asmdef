@@ -1,0 +1,17 @@
+{
+    "name": "DDD",
+    "rootNamespace": "DDD",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:587bbfe7eabe0e74f8002bc09b3137cc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
