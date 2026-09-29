@@ -21,7 +21,7 @@
                     "type": "Value",
                     "id": "a6fb3121-e55d-4852-9ac2-97b289443a8a",
                     "expectedControlType": "Vector2",
-                    "processors": "",
+                    "processors": "ScaleVector2(x=10,y=5)",
                     "interactions": "",
                     "initialStateCheck": true,
                     "priority": 0
@@ -175,7 +175,7 @@
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
-                    "processors": "",
+                    "processors": "ScaleVector2(x=10,y=5)",
                     "groups": ";Gamepad",
                     "action": "Look",
                     "isComposite": false,
