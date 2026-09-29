@@ -1,0 +1,17 @@
+{
+    "name": "DDD.Interactions",
+    "rootNamespace": "DDD.Interactions",
+    "references": [
+        "GUID:587bbfe7eabe0e74f8002bc09b3137cc",
+        "GUID:f3567cf1c62cff94fa3cc44b98684658"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

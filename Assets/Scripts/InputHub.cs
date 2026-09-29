@@ -16,6 +16,7 @@ namespace DDD
         // ==========================================
         public Vector2 Move { get; private set; }
         public bool Jump { get; private set; }
+        public bool Interact { get; private set; }
 
         // Reference to the PlayerInput component attached to this GameObject
         private PlayerInput input;
@@ -60,6 +61,10 @@ namespace DDD
                 // Checks > 0.5f to evaluate true when a button or trigger is pressed past the threshold.
                 case "Jump":
                     Jump = context.ReadValue<float>() > 0.5f;
+                    break;
+
+                case "Interact":
+                    Interact = context.ReadValue<float>() > 0.5f;
                     break;
             }
         }
