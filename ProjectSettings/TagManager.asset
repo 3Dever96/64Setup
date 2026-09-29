@@ -11,6 +11,10 @@ TagManager:
   - Solid
   - Water
   - UI
+  - Pickup
+  - Hazard
+  - Interaction
+  - InteractionManager
   - 
   - 
   - 
@@ -27,16 +31,12 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - EnemyHitbox
+  - EnemyHurtbox
+  - Player
+  - PlayerHitbox
+  - PlayerHurtbox
   m_SortingLayers:
   - name: Default
     uniqueID: 0
